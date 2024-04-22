@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dynamic Table from JavaScript</title>
     <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            text-align: center;
+            padding: 8px; /* セル内の余白を指定 */
+            border: 1px solid #ddd; /* セルの境界線を指定 */
+        }
+        th {
+            background-color: #f2f2f2; /* ヘッダーセルの背景色を指定 */
+        }
+    </style>
 </head>
 <body>
     <table id="myTable">
@@ -12,6 +26,7 @@
             <tr>
                 <th>qubit</th>
                 <th>T1</th>
+                <th>one qubit gate</th>
                 <th>Reference</th>
             </tr>
         </thead>
