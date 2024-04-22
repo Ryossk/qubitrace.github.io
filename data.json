@@ -1,6 +1,6 @@
 [
-    { "name": "John Doe", "age": 30, "country": "USA" },
-    { "name": "Jane Smith", "age": 25, "country": "Canada" },
-    { "name": "Alex Johnson", "age": 35, "country": "UK" }
+    { "qubit": "superconductor", "T1": 30, "Reference": "[1]]" },
+    { "qubit": "superconductor", "T1": 25, "Reference": "[2]]" },
+    { "qubit": "photon", "T1": 35, "Reference": "[3]]" }
     // Add more objects as needed
 ]
