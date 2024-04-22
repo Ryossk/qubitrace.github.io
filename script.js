@@ -4,9 +4,9 @@ $(document).ready(function() {
         var table = $('#myTable').DataTable({
             data: data, // JSONデータを指定
             columns: [
-                { data: 'qubit' }, // nameフィールドのデータを表示
-                { data: 'T1' }, // ageフィールドのデータを表示
-                { data: 'Reference' } // countryフィールドのデータを表示
+                { data: 'qubit' }, // qubitフィールドのデータを表示
+                { data: 'T1' }, // T1フィールドのデータを表示
+                { data: 'Reference' } // Referenceフィールドのデータを表示
             ]
         });
     });
