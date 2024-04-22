@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // JSONファイルからデータを読み込む
-    $.getJSON('data.json', function(data) {
+    $.getJSON('./data.json', function(data) {
         var table = $('#myTable').DataTable({
             data: data, // JSONデータを指定
             columns: [
