@@ -3,17 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>Dynamic Table</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My GitHub Page</h1>
-    </header>
-    <main>
-        <p>This is a simple example of a GitHub Pages entry file.</p>
-    </main>
-    <footer>
-        <p>&copy; 2024 Your Name</p>
-    </footer>
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>30</td>
+                <td>USA</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
