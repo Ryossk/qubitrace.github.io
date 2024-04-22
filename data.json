@@ -1,0 +1,6 @@
+[
+    { "name": "John Doe", "age": 30, "country": "USA" },
+    { "name": "Jane Smith", "age": 25, "country": "Canada" },
+    { "name": "Alex Johnson", "age": 35, "country": "UK" }
+    // Add more objects as needed
+]

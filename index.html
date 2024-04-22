@@ -3,36 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Table</title>
+    <title>Dynamic Table from JSON</title>
     <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
 </head>
 <body>
     <table id="myTable">
         <thead>
             <tr>
-                <th>qubit</th>
-                <th>T1</th>
-                <th>reference</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
             </tr>
         </thead>
-        <tbody>
-            <tr>
-                <td>superconductor</td>
-                <td>30</td>
-                <td>[1]</td>
-            </tr>
-            <tr>
-                <td>superconductor</td>
-                <td>2</td>
-                <td>[2]</td>
-            </tr>
-            <tr>
-                <td>semiconductor</td>
-                <td>10</td>
-                <td>[3]</td>
-            </tr>
-            <!-- Add more rows as needed -->
-        </tbody>
+        <tbody></tbody> <!-- Empty tbody initially -->
     </table>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
