@@ -48,5 +48,15 @@
         "Year": "-",
         "One logical qubit generation Rate": "-",
         "Comment": "-"
+    },
+    {
+        "qubit": "electron",
+        "T1": 10,
+        "Reference": "our lab",
+        "one_qubit_gate": 3,
+        "two_qubit_gate": 5,
+        "Year": "-",
+        "One logical qubit generation Rate": "-",
+        "Comment": "novel technique"
     }
 ]
