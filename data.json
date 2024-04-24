@@ -1,14 +1,14 @@
 [
     {
-        "qubit": "superconductor",
-        "T1": 30,
-        "T2*": 20,
-        "Reference": "PRB",
-        "one_qubit_gate": 1,
+        "qubit": "superconductor ",
+        "T1": 1.87,
+        "T2*": 2.22,
+        "Reference": "10.1103/PhysRevB.77.180502",
+        "one_qubit_gate": "-",
         "two_qubit_gate": "-",
-        "Year": "-",
+        "Year": "2008",
         "One logical qubit generation Rate": "-",
-        "Comment": "-"
+        "Comment": "transmon"
     },
     {
         "qubit": "superconductor ",
