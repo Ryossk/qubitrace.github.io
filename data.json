@@ -2,6 +2,17 @@
     {
         "qubit": "superconductor",
         "T1": 30,
+        "T2*": 20,
+        "Reference": "PRB",
+        "one_qubit_gate": 1,
+        "two_qubit_gate": "-",
+        "Year": "-",
+        "One logical qubit generation Rate": "-",
+        "Comment": "-"
+    },
+    {
+        "qubit": "superconductor ",
+        "T1": 30,
         "Reference": "Nature",
         "one_qubit_gate": 1,
         "two_qubit_gate": "-",
