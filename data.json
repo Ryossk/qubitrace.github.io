@@ -1,73 +1,97 @@
 [
     {
-        "qubit": "superconductor ",
+        "qubit": "Superconducting circuit",
         "T1": 1.87,
         "T2*": 2.22,
         "Reference": "10.1103/PhysRevB.77.180502",
-        "one_qubit_gate": "-",
-        "two_qubit_gate": "-",
         "Year": "2008",
-        "One logical qubit generation Rate": "-",
         "Comment": "transmon"
     },
     {
-        "qubit": "superconductor ",
-        "T1": 30,
-        "Reference": "Nature",
-        "one_qubit_gate": 1,
-        "two_qubit_gate": "-",
-        "Year": "-",
-        "One logical qubit generation Rate": "-",
-        "Comment": "-"
+        "qubit": "Superconducting circuit",
+        "T1": 1.8,
+        "T2*": 0.5,
+        "Reference": "10.1126/science.1069372",
+        "Year": "2002",
+        "Comment": "Quantronium"
     },
     {
-        "qubit": "superconductor",
-        "T1": 25,
-        "Reference": "Science",
-        "one_qubit_gate": 2,
-        "two_qubit_gate": "-",
-        "Year": "-",
-        "One logical qubit generation Rate": "-",
-        "Comment": "-"
+        "qubit": "Superconducting circuit",
+        "T1": 7.3,
+        "T2": 0.5,
+        "Reference": "10.1103/PhysRevLett.95.060501",
+        "Year": "2005",
+        "Comment": "Cooper pair box"
     },
     {
-        "qubit": "photon",
-        "T1": 35,
-        "Reference": "arXiv",
-        "one_qubit_gate": 3,
-        "two_qubit_gate": "-",
-        "Year": "-",
-        "One logical qubit generation Rate": "-",
-        "Comment": "-"
+        "qubit": "Superconducting circuit",
+        "T1": 60,
+        "T2": 25,
+        "Reference": "10.1103/PhysRevLett.107.240501",
+        "Year": "2011",
+        "Comment": "transmon, 3D cavity, T2 without echo is 18 us"
     },
     {
-        "qubit": "semiconductor",
-        "T1": 3,
-        "Reference": "PRL",
-        "one_qubit_gate": 4,
-        "two_qubit_gate": "-",
-        "Year": "-",
-        "One logical qubit generation Rate": "-",
-        "Comment": "-"
+        "qubit": "Superconducting circuit",
+        "T1": 70,
+        "T2": 92,
+        "Reference": "10.1103/PhysRevB.86.100506",
+        "Year": "2012",
+        "Comment": "transmon, 3D cavity"
     },
     {
-        "qubit": "ion",
-        "T1": 100,
-        "Reference": "my note",
-        "one_qubit_gate": 1,
-        "two_qubit_gate": 2,
-        "Year": "-",
-        "One logical qubit generation Rate": "-",
-        "Comment": "-"
+        "qubit": "Superconducting circuit",
+        "T1": 44,
+        "T2*": 15,
+        "T2": 20,
+        "Reference": "10.1103/PhysRevLett.111.080502",
+        "Year": "2013",
+        "Comment": "Xmon"
     },
     {
-        "qubit": "electron",
-        "T1": 10,
-        "Reference": "our lab",
-        "one_qubit_gate": 3,
-        "two_qubit_gate": 5,
-        "Year": "-",
-        "One logical qubit generation Rate": "-",
-        "Comment": "novel technique"
+        "qubit": "NMR",
+        "T2":25e6,
+        "Reference": "10.1103/PhysRevB.71.014401",
+        "Year": "2005",
+        "Comment": "<sup>29</sup>Si"
+    },
+    {
+        "qubit": "Quantum dot",
+        "T2*": 120,
+        "T2": 28e3,
+        "one_qubit_gate_fidelity": 99.6,
+        "Reference": "10.1038/nnano.2014.216",
+        "Year": "2014",
+        "Comment": "Si electron spin"
+    },
+    {
+        "qubit": "Quantum dot",
+        "T2*": 0.360,
+        "Reference": "10.1038/nature10707",
+        "Year": "2012",
+        "Comment": "Si/SiGe electron spin"
+    },
+    {
+        "qubit": "Quantum dot",
+        "T2*": 6.4,
+        "Reference": "10.1126/sciadv.1500214",
+        "Year": "2015",
+        "Comment": "Si/SiGe electron spin"
+    },
+    {
+        "qubit": "Quantum dot",
+        "T2": 400,
+        "one_qubit_gate_fidelity": 99,
+        "Reference": "10.1073/pnas.1603251113",
+        "Year": "2016",
+        "Comment": "Si/SiGe electron spin"
+    },
+    {
+        "qubit": "Quantum dot",
+        "T2*": 2,
+        "one_qubit_gate_fidelity": 99.6,
+        "Reference": "10.1126/sciadv.1600694",
+        "Year": "2016",
+        "Comment": "Si/SiGe electron spin, one qubit Rabi frequency (35 MHz)"
     }
 ]
