@@ -49,13 +49,6 @@
         "Comment": "Xmon"
     },
     {
-        "qubit": "NMR",
-        "T2":25e6,
-        "Reference": "10.1103/PhysRevB.71.014401",
-        "Year": "2005",
-        "Comment": "<sup>29</sup>Si"
-    },
-    {
         "qubit": "Quantum dot",
         "T2*": 120,
         "T2": 28e3,
@@ -93,5 +86,34 @@
         "Reference": "10.1126/sciadv.1600694",
         "Year": "2016",
         "Comment": "Si/SiGe electron spin, one qubit Rabi frequency (35 MHz)"
+    },
+    {
+        "qubit": "Trapped ion",
+        "T2*": 50e6,
+        "one_qubit_gate":12,
+        "one_qubit_gate_fidelity": 99.9999,
+        "Reference": "10.1103/PhysRevLett.113.220501",
+        "Year": "2014",
+        "Comment": "<sup>43</sup>Ca<sup>+</sup>, hyperfine, MW gate"
+    },
+    {
+        "qubit": "Trapped ion",
+        "one_qubit_gate" :7.5,
+        "one_qubit_gate_fidelity" : 99.993,
+        "two_qubit_gate":100,
+        "two_qubit_gate_fidelity": 99.9,
+        "Reference": "10.1103/PhysRevLett.117.060504",
+        "Year": "2016",
+        "Comment": "<sup>43</sup>Ca<sup>+</sup>, hyperfine, Raman gate, gate times for highest fidelity"
+    },
+    {
+        "qubit": "Trapped ion",
+        "one_qubit_gate" :2,
+        "one_qubit_gate_fidelity" : 99.996,
+        "two_qubit_gate":30,
+        "two_qubit_gate_fidelity": 99.991,
+        "Reference": "10.1103/PhysRevLett.117.060505",
+        "Year": "2016",
+        "Comment": "<sup>9</sup>Be<sup>+</sup>, hyperfine, Raman gate"
     }
 ]
