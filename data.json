@@ -49,13 +49,21 @@
         "Comment": "Xmon"
     },
     {
+        "qubit": "Superconducting circuit",
+        "T1": 500,
+        "T2": 510,
+        "Reference": "10.1103/PhysRevX.9.041041",
+        "Year": "2019",
+        "Comment": "fluxonium"
+    },
+    {
         "qubit": "Quantum dot",
         "T2*": 120,
         "T2": 28e3,
         "one_qubit_gate_fidelity": 99.6,
         "Reference": "10.1038/nnano.2014.216",
         "Year": "2014",
-        "Comment": "Si electron spin"
+        "Comment": "Si/SiO<sub>2</sub> electron spin"
     },
     {
         "qubit": "Quantum dot",
