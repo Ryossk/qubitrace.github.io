@@ -57,27 +57,35 @@
         "Comment": "fluxonium"
     },
     {
+        "qubit": "Superconducting circuit",
+        "T1": 1600,
+        "T2": 25,
+        "Reference": "10.1103/PRXQuantum.2.010339",
+        "Year": "2021",
+        "Comment": "soft 0-pi qubit"
+    },
+    {
         "qubit": "Quantum dot",
         "T2*": 120,
         "T2": 28e3,
         "one_qubit_gate_fidelity": 99.6,
         "Reference": "10.1038/nnano.2014.216",
         "Year": "2014",
-        "Comment": "Si/SiO<sub>2</sub> electron spin"
+        "Comment": "Si/SiO<sub>2</sub>"
     },
     {
         "qubit": "Quantum dot",
         "T2*": 0.360,
         "Reference": "10.1038/nature10707",
         "Year": "2012",
-        "Comment": "Si/SiGe electron spin"
+        "Comment": "Si/SiGe"
     },
     {
         "qubit": "Quantum dot",
         "T2*": 6.4,
         "Reference": "10.1126/sciadv.1500214",
         "Year": "2015",
-        "Comment": "Si/SiGe electron spin"
+        "Comment": "Si/SiGe"
     },
     {
         "qubit": "Quantum dot",
@@ -85,7 +93,7 @@
         "one_qubit_gate_fidelity": 99,
         "Reference": "10.1073/pnas.1603251113",
         "Year": "2016",
-        "Comment": "Si/SiGe electron spin"
+        "Comment": "Si/SiGe"
     },
     {
         "qubit": "Quantum dot",
@@ -93,7 +101,7 @@
         "one_qubit_gate_fidelity": 99.6,
         "Reference": "10.1126/sciadv.1600694",
         "Year": "2016",
-        "Comment": "Si/SiGe electron spin, one qubit Rabi frequency (35 MHz)"
+        "Comment": "Si/SiGe, one qubit Rabi frequency is 35 MHz"
     },
     {
         "qubit": "Trapped ion",
@@ -112,7 +120,7 @@
         "two_qubit_gate_fidelity": 99.9,
         "Reference": "10.1103/PhysRevLett.117.060504",
         "Year": "2016",
-        "Comment": "<sup>43</sup>Ca<sup>+</sup>, hyperfine, Raman gate, gate times for highest fidelity"
+        "Comment": "<sup>43</sup>Ca<sup>+</sup>, hyperfine, Raman gate, trade off between gate times and fidelity"
     },
     {
         "qubit": "Trapped ion",
