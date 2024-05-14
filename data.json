@@ -1,14 +1,6 @@
 [
     {
         "qubit": "Superconducting circuit",
-        "T1": 1.87,
-        "T2*": 2.22,
-        "Reference": "10.1103/PhysRevB.77.180502",
-        "Year": "2008",
-        "Comment": "transmon"
-    },
-    {
-        "qubit": "Superconducting circuit",
         "T1": 1.8,
         "T2*": 0.5,
         "Reference": "10.1126/science.1069372",
@@ -25,11 +17,20 @@
     },
     {
         "qubit": "Superconducting circuit",
+        "T1": 1.87,
+        "T2*": 2.22,
+        "Reference": "10.1103/PhysRevB.77.180502",
+        "Year": "2008",
+        "Comment": "transmon"
+    },
+    {
+        "qubit": "Superconducting circuit",
         "T1": 60,
+        "T2*": 18,
         "T2": 25,
         "Reference": "10.1103/PhysRevLett.107.240501",
         "Year": "2011",
-        "Comment": "transmon, 3D cavity, T2 without echo is 18 us"
+        "Comment": "transmon, 3D cavity"
     },
     {
         "qubit": "Superconducting circuit",
@@ -58,11 +59,37 @@
     },
     {
         "qubit": "Superconducting circuit",
+        "T1": 16.04,
+        "one_qubit_gate_fidelity": 99.85,
+        "two_qubit_gate_fidelity": 99.64,
+        "Reference": "10.1038/s41586-019-1666-5",
+        "Year": "2019",
+        "Comment": "transmon, Sycamore, T1 is mean value"
+    },
+    {
+        "qubit": "Superconducting circuit",
         "T1": 1600,
         "T2": 25,
         "Reference": "10.1103/PRXQuantum.2.010339",
         "Year": "2021",
         "Comment": "soft 0-pi qubit"
+    },
+    {
+        "qubit": "Superconducting circuit",
+        "T1": 149,
+        "T2": 189,
+        "one_qubit_gate_fidelity": 99.982,
+        "Reference": "10.1126/sciadv.abl6698",
+        "Year": "2022",
+        "Comment": "transmon"
+    },
+    {
+        "qubit": "Superconducting circuit",
+        "T1": 1168,
+        "T2": 943,
+        "Reference": "arXiv:2405.05481",
+        "Year": "2024",
+        "Comment": "fluxonium"
     },
     {
         "qubit": "Quantum dot",
@@ -131,5 +158,14 @@
         "Reference": "10.1103/PhysRevLett.117.060505",
         "Year": "2016",
         "Comment": "<sup>9</sup>Be<sup>+</sup>, hyperfine, Raman gate"
+    },
+    {
+        "qubit": "Trapped ion",
+        "T1": 16000e6,
+        "T2*": 1.6e6,
+        "T2": 5500e6,
+        "Reference": "10.1038/s41467-020-20330-w",
+        "Year": "2020",
+        "Comment": "<sup>171</sup>Yb<sup>+</sup>, hyperfine"
     }
 ]
