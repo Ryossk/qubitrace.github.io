@@ -145,18 +145,19 @@
         "one_qubit_gate_fidelity" : 99.993,
         "two_qubit_gate":100,
         "two_qubit_gate_fidelity": 99.9,
-        "Reference": "10.1103/PhysRevLett.117.060504",
         "Year": "2016",
-        "Comment": "<sup>43</sup>Ca<sup>+</sup>, hyperfine, Raman gate, trade off between gate times and fidelity"
+        "Reference": "10.1103/PhysRevLett.117.060504",
+        "Comment": "<sup>43</sup>Ca<sup>+</sup>, hyperfine, Raman gate, gate times for highest fidelity"
     },
     {
         "qubit": "Trapped ion",
+        "T2*": 1.5e6,
         "one_qubit_gate" :2,
         "one_qubit_gate_fidelity" : 99.996,
         "two_qubit_gate":30,
         "two_qubit_gate_fidelity": 99.991,
-        "Reference": "10.1103/PhysRevLett.117.060505",
         "Year": "2016",
+        "Reference": "10.1103/PhysRevLett.117.060505",
         "Comment": "<sup>9</sup>Be<sup>+</sup>, hyperfine, Raman gate"
     },
     {
@@ -164,8 +165,8 @@
         "T1": 16000e6,
         "T2*": 1.6e6,
         "T2": 5500e6,
-        "Reference": "10.1038/s41467-020-20330-w",
         "Year": "2020",
+        "Reference": "10.1038/s41467-020-20330-w",
         "Comment": "<sup>171</sup>Yb<sup>+</sup>, hyperfine"
     }
 ]
