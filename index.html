@@ -43,9 +43,48 @@
         <tbody></tbody> <!-- Empty tbody initially -->
     </table>
 
+    <!-- 追加: グラフ描画用のコントロール -->
+    <div>
+        <label for="qubitSelect">Qubit を選択:</label>
+        <select id="qubitSelect">
+            <option value="">全て</option>
+        </select>
+
+        <label for="xAxisSelect">X軸:</label>
+        <select id="xAxisSelect">
+            <option value="Year">Year</option>
+            <option value="T1">T1</option>
+            <option value="T2*">T2*</option>
+            <option value="T2">T2</option>
+            <option value="one_qubit_gate">One PQ gate</option>
+            <option value="one_qubit_gate_fidelity">One PQ gate fidelity</option>
+            <option value="two_qubit_gate">Two PQ gate</option>
+            <option value="two_qubit_gate_fidelity">Two PQ gate fidelity</option>
+        </select>
+
+        <label for="yAxisSelect">Y軸:</label>
+        <select id="yAxisSelect">
+            <option value="T1">T1</option>
+            <option value="T2*">T2*</option>
+            <option value="T2">T2</option>
+            <option value="one_qubit_gate">One PQ gate</option>
+            <option value="one_qubit_gate_fidelity">One PQ gate fidelity</option>
+            <option value="two_qubit_gate">Two PQ gate</option>
+            <option value="two_qubit_gate_fidelity">Two PQ gate fidelity</option>
+        </select>
+
+        <button id="drawChartBtn">グラフ描画</button>
+    </div>
+
+    <!-- グラフ表示用の canvas -->
+    <canvas id="myChart" width="600" height="400"></canvas>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="script.js"></script>
+    
     <p>credit Ryo Sasaki</p>
 </body>
 </html>
