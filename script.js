@@ -12,6 +12,8 @@ $(document).ready(function() {
                 { data: 'one_qubit_gate_fidelity' },
                 { data: 'two_qubit_gate' },
                 { data: 'two_qubit_gate_fidelity' },
+                { data: 'readout' },
+                { data: 'readout_fidelity' },
                 { data: 'Year' },
                 { data: 'Reference' },
                 { data: 'Comment' }
