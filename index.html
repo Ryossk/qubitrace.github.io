@@ -45,12 +45,12 @@
 
     <!-- 追加: グラフ描画用のコントロール -->
     <div>
-        <label for="qubitSelect">Qubit を選択:</label>
-        <select id="qubitSelect">
-            <option value="">全て</option>
+        <label for="qubitSelect">Qubit :</label>
+        <select id="qubitSelect" multiple>
+            <option value="">all</option>
         </select>
 
-        <label for="xAxisSelect">X軸:</label>
+        <label for="xAxisSelect">X axis:</label>
         <select id="xAxisSelect">
             <option value="Year">Year</option>
             <option value="T1">T1</option>
@@ -62,7 +62,7 @@
             <option value="two_qubit_gate_fidelity">Two PQ gate fidelity</option>
         </select>
 
-        <label for="yAxisSelect">Y軸:</label>
+        <label for="yAxisSelect">Y axis:</label>
         <select id="yAxisSelect">
             <option value="T1">T1</option>
             <option value="T2*">T2*</option>
@@ -73,7 +73,14 @@
             <option value="two_qubit_gate_fidelity">Two PQ gate fidelity</option>
         </select>
 
-        <button id="drawChartBtn">グラフ描画</button>
+        <!-- Y軸スケール選択の追加 -->
+        <label for="yScaleSelect">Y scale:</label>
+        <select id="yScaleSelect">
+            <option value="linear" selected>Linear</option>
+            <option value="logarithmic">Logarithmic</option>
+        </select>
+
+        <button id="drawChartBtn">Plot</button>
     </div>
 
     <!-- グラフ表示用の canvas -->
