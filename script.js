@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $.getJSON('data.json', function(data) {
-        // DataTable 初期化
+        // DataTable 初期化…
         var table = $('#mainTable').DataTable({
             data: data,
             columns: [
@@ -41,6 +41,20 @@ $(document).ready(function() {
 
         var chartInstance = null;
 
+        // 単位マッピング（必要に応じて追加・変更してください）
+        var unitMapping = {
+            T1: "[us]",
+            "T2*": "[us]",
+            T2: "[us]",
+            one_qubit_gate: "[us]",
+            one_qubit_gate_fidelity: "[%]",
+            two_qubit_gate: "[us]",
+            two_qubit_gate_fidelity: "[%]",
+            readout: "[us]",
+            readout_fidelity: "[%]",
+            Year: ""  // 年の場合は単位不要
+        };
+
         // 「グラフ描画」ボタン押下時の処理
         $('#drawChartBtn').on('click', function() {
             var selectedQubits = $('#qubitSelect').val();
@@ -49,7 +63,7 @@ $(document).ready(function() {
             var yScale = $('#yScaleSelect').val();
             var chartType = $('#chartTypeSelect').val();
         
-            // 全件表示の場合
+            // 全件表示の場合の処理…
             if (!selectedQubits || (Array.isArray(selectedQubits) && selectedQubits.length === 0) ||
                (Array.isArray(selectedQubits) && selectedQubits.length === 1 && selectedQubits[0] === "")) {
                 selectedQubits = [];
@@ -90,7 +104,7 @@ $(document).ready(function() {
                         fill: false,
                         tension: 0.0,
                         spanGaps: true,
-                        showLine: (chartType === 'line') ? true : false  // line なら線で繋ぎ、scatter なら点のみ
+                        showLine: (chartType === 'line') ? true : false  // line なら線で、scatter なら点のみ
                     });
                 }
             });
@@ -100,7 +114,6 @@ $(document).ready(function() {
             }
             var ctx = document.getElementById('myChart').getContext('2d');
             
-            // 共通の xLabels は不要。x軸は各データオブジェクトの x 値を反映
             var config = {
                 type: chartType,
                 data: {
@@ -119,7 +132,7 @@ $(document).ready(function() {
                             },
                             title: {
                                 display: true,
-                                text: xField
+                                text: xField + (unitMapping[xField] ? " " + unitMapping[xField] : "")
                             }
                         },
                         y: {
@@ -127,13 +140,13 @@ $(document).ready(function() {
                             beginAtZero: (yScale === 'linear'),
                             ticks: {
                                 callback: function(value, index, values) {
-                                    // Y軸に Year を選択した場合
+                                    // Y軸に Year を選択した場合、値を文字列にして返す
                                     return (yField === 'Year') ? value.toString() : value;
                                 }
                             },
                             title: {
                                 display: true,
-                                text: yField
+                                text: yField + (unitMapping[yField] ? " " + unitMapping[yField] : "")
                             }
                         }
                     }
