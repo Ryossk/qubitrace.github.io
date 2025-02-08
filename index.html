@@ -21,7 +21,7 @@
 </head>
 <body>
     <h1>Qubit Race</h1>
-    <p>Qubit performance is wanted ! Post using the form.</p>
+    <p>Qubit performance is wanted ! Post from the form.</p>
     <a href="https://forms.gle/7Y3C15GQUSQroZrb7"><b>Qubit Race form</b></a>
     <p>PQ : Physical qubit, LQ : Logical qubit</p>
     <table id="mainTable">
@@ -78,6 +78,19 @@
         <select id="yScaleSelect">
             <option value="linear" selected>Linear</option>
             <option value="logarithmic">Logarithmic</option>
+        </select>
+
+        <!-- X軸スケール選択の追加 -->
+        <label for="xScaleSelect">X scale:</label>
+        <select id="xScaleSelect">
+            <option value="linear" selected>Linear</option>
+            <option value="logarithmic">Logarithmic</option>
+        </select>
+
+        <label for="chartTypeSelect">Chart type:</label>
+        <select id="chartTypeSelect">
+            <option value="line" selected>Line Plot</option>
+            <option value="scatter">Scatter Plot</option>
         </select>
 
         <button id="drawChartBtn">Plot</button>
